@@ -16,19 +16,32 @@ test.csv : Use the trained model to predict the count of total rentals for each 
 Data Dictionary
 Here is the description of all the variables :
 
-Variable	Definition
-datetime	hourly date + timestamp
-season	Type of season (1 = spring, 2 = summer, 3 = fall, 4 = winter)
-holiday	whether the day is considered a holiday
-workingday	whether the day is neither a weekend nor holiday
-weather	weather
-temp	temperature in Celsius
-atemp	"feels like" temperature in Celsius
-humidity	relative humidity
-windspeed	wind speed
-casual	number of non-registered user rentals initiated
-registered	number of registered user rentals initiated
-count	number of total rentals
+Variable:	Definition
+
+datetime:	hourly date + timestamp
+
+season:	Type of season (1 = spring, 2 = summer, 3 = fall, 4 = winter)
+
+holiday:	whether the day is considered a holiday
+
+workingday:	whether the day is neither a weekend nor holiday
+
+weather:	weather
+
+temp:	temperature in Celsius
+
+atemp:	"feels like" temperature in Celsius
+
+humidity:	relative humidity
+
+windspeed:	wind speed
+
+casual:	number of non-registered user rentals initiated
+
+registered:	number of registered user rentals initiated
+
+count:	number of total rentals
+
 How good are your predictions?
 
 Evaluation Metric
